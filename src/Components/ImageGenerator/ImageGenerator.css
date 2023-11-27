@@ -1,0 +1,85 @@
+/* Genel Stiller */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .ai-image-generator Stilleri */
+.ai-image-generator {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  margin-top: 10vh; /* Ekranın üstünden 10% uzaklık */
+  margin-bottom: 2vh; /* Ekranın altından 2% uzaklık */
+  gap: 2vh; /* 2% boşluk */
+  max-width: 80vw; /* Ekranın genişliğinin en fazla 80%'i */
+  padding: 0 4vw; /* Kenar boşlukları, ekranın genişliğinin 4%'ü */
+}
+
+/* .header Stilleri */
+.header {
+  font-size: 3vw;
+  font-weight: 600;
+  padding-bottom: 4vh;
+}
+
+.header span {
+  color: #de1b89;
+  font-weight: 600;
+}
+
+/* .img-loading Stilleri */
+.img-loading {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-loading img {
+  width: 100%; /* Resmin genişliği %100 */
+  height: auto; /* Yüksekliği otomatik olarak ayarla */
+}
+
+/* .search-box Stilleri */
+.search-box {
+  display: flex;
+  width: 35 vw; /* Ekranın genişliğinin 90%'i kadar */
+  height: 10vh; /* Ekranın yüksekliğinin 10%'i kadar */
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5vw; /* Ekranın genişliğinin 5%'i kadar köşe yarıçapı */
+  background: #1f3549;
+  margin-top: 2vh;
+}
+
+/* .search-input Stilleri */
+.search-input {
+  width: 25vw; /* Ekranın genişliğinin 70%'i kadar */
+  height: 5vh; /* Ekranın yüksekliğinin 5%'i kadar */
+  font-size: 1vw; /* Ekranın genişliğinin 2%'i kadar font boyutu */
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding-left: 3.5vw; /* Ekranın genişliğinin 3%'i kadar sol iç boşluk */
+  margin-right: 3.5vw; /* Ekranın genişliğinin 3%'i kadar sağ marj */
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+/* .generate-btn Stilleri */
+.generate-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw; /* Ekranın genişliğinin 30%'i kadar */
+  height: 9vh; /* Ekranın yüksekliğinin 7%'i kadar */
+  font-size: 1vw; /* Ekranın genişliğinin 2%'i kadar font boyutu */
+  border-radius: 5vw; /* Ekranın genişliğinin 5%'i kadar köşe yarıçapı */
+  background: #de1b89;
+  cursor: pointer;
+}
